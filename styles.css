@@ -1024,6 +1024,11 @@ body {
 
     .hero-buttons {
         justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 
     .hero-visual {
@@ -1107,11 +1112,20 @@ body {
     .hero-buttons {
         flex-direction: column;
         gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
     .btn {
         padding: 12px 25px;
         font-size: 0.9rem;
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
     }
 
     .hero-card {
